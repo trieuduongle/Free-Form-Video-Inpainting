@@ -3,8 +3,8 @@
     "data_loader": {
         "type": "MaskedFrameDataLoader",
         "args":{
-            "root_videos_dir": "../dataset/FVI/Train/JPEGImages/",
-            "root_masks_dir": "../dataset/FVI/Train/random_masks/",
+            "root_videos_dir": "/content/drive/My Drive/Duong/datasets/FVI/Train/JPEGImages/",
+            "root_masks_dir": "/content/drive/My Drive/Duong/datasets/FVI/Train/random_masks/",
             "root_outputs_dir": "",
             "dataset_args": {
                 "type": "video",
@@ -27,8 +27,8 @@
             "type": "MaskedFrameDataLoader",
             "args":{
                 "name": "test_object_35",
-                "root_videos_dir": "../dataset/FVI/Test/JPEGImages/",
-                "root_masks_dir": "../dataset/FVI/Test/random_masks/object_like_middle/35",
+                "root_videos_dir": "/content/drive/My Drive/Duong/datasets/FVI/Test/JPEGImages/",
+                "root_masks_dir": "/content/drive/My Drive/Duong/datasets/FVI/Test/random_masks/object_like_middle/35",
                 "root_outputs_dir": "../VOS_resized2",
                 "dataset_args": {
                     "type": "video",
@@ -49,8 +49,8 @@
             "type": "MaskedFrameDataLoader",
             "args":{
                 "name": "test_curve_like_45",
-                "root_videos_dir": "../dataset/FVI/Test/JPEGImages/",
-                "root_masks_dir": "../dataset/FVI/Test/random_masks/rand_curve/45",
+                "root_videos_dir": "/content/drive/My Drive/Duong/datasets/FVI/Test/JPEGImages/",
+                "root_masks_dir": "/content/drive/My Drive/Duong/datasets/FVI/Test/random_masks/rand_curve/45",
                 "root_outputs_dir": "../VOS_resized2",
                 "dataset_args": {
                     "type": "video",
